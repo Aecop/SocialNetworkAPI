@@ -1,0 +1,28 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "Social Network API",
+  "main": "server.js",
+  "scripts": {
+    "test": "N/A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aecop/SocialNetworkAPI.git"
+  },
+  "keywords": [
+    "SocialNetworkAPI"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aecop/SocialNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/Aecop/SocialNetworkAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21"
+  }
+}
