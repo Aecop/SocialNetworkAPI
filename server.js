@@ -1,7 +1,8 @@
 // Import express and db
 const express = require('express');
-const routes = ('/routes')
+
 const db = require('./config/connection');
+const routes = require('./routes');
 
 
 
@@ -10,7 +11,7 @@ const db = require('./config/connection');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(express.json);
+app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(express.static('public'));
 app.use(routes);
